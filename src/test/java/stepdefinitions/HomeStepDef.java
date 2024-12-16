@@ -2,10 +2,10 @@ package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.testng.Assert;
+import pages.HomePage;
 import utility.Driverholder;
 
-public class Homepage {
+public class HomeStepDef {
 
     @Given("When user open url: {string}")
     public void whenUserOpenUrl(String url) {
@@ -14,6 +14,6 @@ public class Homepage {
 
     @Then("validate youtube page is loaded properly")
     public void validateYoutubePageIsLoadedProperly() {
-        Assert.assertEquals(Driverholder.getDriver().getTitle().contains("YouTube"), true);
+        HomePage.verifyPageTitle("YouTube");
     }
 }

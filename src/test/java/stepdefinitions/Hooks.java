@@ -16,7 +16,7 @@ import utility.Driverholder;
 import java.io.File;
 import java.io.IOException;
 
-public class BasePage {
+public class Hooks {
     public WebDriver driver;
 
     @Before
