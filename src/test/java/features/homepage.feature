@@ -1,6 +1,6 @@
 @Smoke
-Feature: Youtube homepage
+Feature: Google homepage
 
-  Scenario: Verify that youtube homepage is able to open
-    Given When user open url: "https:www.youtube.com"
-    Then validate youtube page is loaded properly
+  Scenario: Verify that user is able to type in Google search
+    Given When user open url: "https:www.google.com"
+    Then type "Enjoy" in search box
