@@ -1,0 +1,15 @@
+{
+  "testName": {
+    "username": "user1",
+    "password": "password123"
+  },
+  "testName1": {
+    "username": "user1",
+    "password": "password12345"
+  },
+  "testName2": {
+    "username": "user1",
+    "password": "password123"
+  }
+}
+
